@@ -1,0 +1,19 @@
+html,
+body,
+#root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: linear-gradient(45deg, #0a0a0a 20%, #0e0025 100%);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.canvas {
+    touch-action: auto !important;
+}
