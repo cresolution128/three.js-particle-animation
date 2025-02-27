@@ -32,7 +32,7 @@ const Experience = () => {
                 </ScrollControls>
 
                 <EffectComposer>
-                    <DepthOfField focusDistance={controls.focusDistance} focalLength={controls.focalLength} bokehScale={12} />
+                    <DepthOfField focusDistance={controls.focusDistance} focalLength={controls.focalLength} bokehScale={13} />
                 </EffectComposer>
             </Canvas>
         </>
