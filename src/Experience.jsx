@@ -25,7 +25,7 @@ const Experience = () => {
             >
                 <Perf position={'bottom-left'} />
                 {/* <OrbitControls enabled={true} enableZoom={false} /> */}
-                <ScrollControls pages={2} damping={0.65} distance={0.85}>
+                <ScrollControls pages={2} damping={0.6} distance={0.85}>
                     <group position={[0, -0.5, 0]}>
                         <Sphere />
                     </group>
